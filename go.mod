@@ -1,3 +1,3 @@
 module gojieba-demo
 
-go 1.22
+go 1.17
