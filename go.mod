@@ -1,5 +1,5 @@
 module gojieba-demo
 
-go 1.22.5
+go 1.22
 
-require github.com/yanyiwu/gojieba v1.4.1 // indirect
+require github.com/yanyiwu/gojieba v1.4.1
