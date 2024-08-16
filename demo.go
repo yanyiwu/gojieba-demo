@@ -39,4 +39,9 @@ func main() {
 	words = x.Tag(s)
 	fmt.Println(s)
 	fmt.Println("词性标注:", strings.Join(words, ","))
+
+	s = "我是拖拉机学院手扶拖拉机专业的。不用多久，我就会升职加薪，当上CEO，走上人生巅峰。"
+	words = x.Extract(s, 3)
+	fmt.Println(s)
+	fmt.Println("关键词抽取:", strings.Join(words, ","))
 }
